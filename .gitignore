@@ -1,0 +1,10 @@
+# Ansible
+*.retry
+aws/roles/*
+!aws/roles/requirements.yml
+
+# Vagrant
+.vagrant
+
+# Mac
+.DS_Store
