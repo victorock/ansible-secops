@@ -1,0 +1,17 @@
+---
+- hosts: localhost
+  become: no
+  gather_facts: no
+
+  tasks:
+    - name: "AWS Security Groups Management"
+      include_role:
+         name: victorock.aws-security
+         tasks_from: ec2_group
+      vars:
+        ec2_region: "{{ cloud_region | mandatory }}"
+        ec2_security_group_name: "{{ cloud_security_group_name | mandatory }}"
+        ec2_security_group_state: "{{ cloud_security_group_state | mandatory }}"
+        ec2_security_group_proto: "{{ cloud_security_group_proto | mandatory }}"
+        ec2_security_group_ports: "{{ cloud_security_group_ports | mandatory }}"
+        ec2_security_group_source: "{{ cloud_security_group_source | mandatory }}"

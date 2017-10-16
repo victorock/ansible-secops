@@ -1,7 +1,0 @@
----
-- hosts: localhost
-  become: no
-  gather_facts: no
-
-  roles:
-    - { role: victorock.aws-security }

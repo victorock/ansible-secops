@@ -1,0 +1,16 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: "victorock.rhel7-cis"
+      include_role:
+         name: victorock.rhel7-cis
+      vars:
+        rhel7cis_section1: true
+        rhel7cis_section2: true
+        rhel7cis_section3: true
+        rhel7cis_section4: true
+        rhel7cis_section5: true
+        rhel7cis_section6: true

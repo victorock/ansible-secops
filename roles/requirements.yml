@@ -1,7 +1,19 @@
-- src: git+https://github.com/victorock/ansible-role-security.git
+- src: https://github.com/victorock/ansible-role-security.git
+  scm: git
   version: dev
-  name: victorock.linux-security
+  name: victorock.security
 
-- src: git+https://github.com/victorock/ansible-role-aws-security.git
+- src: https://github.com/victorock/RHEL7-CIS.git
+  scm: git
+  version: devel
+  name: victorock.rhel7-cis
+
+- src: https://github.com/victorock/RHEL7-STIG.git
+  scm: git
+  version: devel
+  name: victorock.rhel7-stig
+
+- src: https://github.com/victorock/ansible-role-aws-security.git
+  scm: git
   version: dev
   name: victorock.aws-security
