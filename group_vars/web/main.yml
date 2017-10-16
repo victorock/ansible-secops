@@ -1,5 +1,4 @@
 rhel7cis_httpd_server: true
 rhel7cis_tftp_server: true
-# WEB Shall always go through reverse-proxy for external access
-#rhel7cis_host_allow:
-#  - "0.0.0.0/0"
+rhel7cis_host_allow:
+  - "0.0.0.0/0"
