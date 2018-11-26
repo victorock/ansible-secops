@@ -7,5 +7,5 @@
   tasks:
     - name: "victorock.rkhunter"
       include_role:
-         name: "victorock.rkhunter"
-         tasks_from: "run"
+        name: "victorock.rkhunter"
+        tasks_from: "run"

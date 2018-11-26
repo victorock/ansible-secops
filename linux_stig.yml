@@ -7,7 +7,8 @@
   tasks:
     - name: "victorock.rhel7-stig"
       include_role:
-         name: victorock.rhel7-stig
+        name: victorock.rhel7-stig
+        tasks_from: run
       vars:
         rhel7stig_cat1_audit: yes
         rhel7stig_cat2_audit: yes
