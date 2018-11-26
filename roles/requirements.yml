@@ -1,3 +1,4 @@
+- name: geerlingguy.repo-epel
 - src: https://github.com/victorock/ansible-role-security.git
   scm: git
   version: dev

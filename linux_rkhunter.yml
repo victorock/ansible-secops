@@ -3,6 +3,8 @@
   hosts: all
   become: yes
   gather_facts: yes
+  roles:
+    - role: geerlingguy.repo-epel
 
   tasks:
     - name: "victorock.rkhunter"
