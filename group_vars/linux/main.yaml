@@ -1,0 +1,2 @@
+rhel7cis_host_allow:
+  - "0.0.0.0/0"
