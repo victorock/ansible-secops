@@ -1,0 +1,7 @@
+---
+- name: "stig_disa"
+  hosts: all
+  become: yes
+  gather_facts: yes
+  roles:
+    - role: Ansible-Security-Compliance.rhel7-role-stig-rhel7-disa
