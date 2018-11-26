@@ -1,6 +1,6 @@
 ---
 - name: "stig"
-  hosts: all
+  hosts: linux
   become: yes
   gather_facts: yes
 

@@ -1,6 +1,6 @@
 ---
 - name: "cis"
-  hosts: all
+  hosts: linux
   become: yes
   gather_facts: yes
 
