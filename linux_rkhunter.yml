@@ -1,0 +1,11 @@
+---
+- name: "rkhunter"
+  hosts: linux
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: "victorock.rkhunter"
+      include_role:
+         name: "victorock.rkhunter"
+         tasks_from: "run"

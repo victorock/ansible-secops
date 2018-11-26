@@ -3,6 +3,11 @@
   version: dev
   name: victorock.security
 
+- src: https://github.com/victorock/ansible-role-rkhunter.git
+  scm: git
+  version: dev
+  name: victorock.rkhunter
+
 - src: https://github.com/victorock/RHEL7-CIS.git
   scm: git
   version: devel
