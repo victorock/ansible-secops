@@ -4,4 +4,4 @@
   become: yes
   gather_facts: yes
   roles:
-    - role: Ansible-Security-Compliance.rhel7-role-stig-rhel7-disa
+    - role: redhatofficial.rhel7_disa_stig

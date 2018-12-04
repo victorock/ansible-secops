@@ -4,4 +4,4 @@
   become: yes
   gather_facts: yes
   roles:
-    - role: Ansible-Security-Compliance.rhel7-role-hipaa
+    - role: redhatofficial.rhel7_hipaa
