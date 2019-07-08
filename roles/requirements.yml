@@ -3,7 +3,6 @@
 - name: Ansible-Security-Compliance.rhel7-role-pci-dss
 - name: redhatofficial.rhel7_pci_dss
 - name: redhatofficial.rhel7_hipaa
-- name: redhatofficial.rhel7_disa_stig
 - name: geerlingguy.repo-epel
 - src: https://github.com/victorock/ansible-role-security.git
   scm: git
